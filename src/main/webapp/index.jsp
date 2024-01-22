@@ -1,0 +1,11 @@
+<%@ page import="java.util.Date, " %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Логирование</title>
+</head>
+<body>
+    <h1>Логирование</h1>
+    <a href="/log-servlet">LogServlet</a>
+</body>
+</html>
