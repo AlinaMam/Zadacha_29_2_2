@@ -6,6 +6,18 @@
 </head>
 <body>
     <h1>Логирование</h1>
-    <a href="/log-servlet">LogServlet</a>
+    <h4>
+        <a href="/Logger">LogServlet</a>
+        <br>
+    </h4>
+    <br>
+    <h2>
+       Текущие данные
+     </h2>
+     <h4>
+       Ваш ip адрес <%=request.getRemoteAddr()%>
+       <br>
+       Дата время <%= new Date().toString()%>
+     </h4>
 </body>
 </html>
