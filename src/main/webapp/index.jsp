@@ -1,4 +1,4 @@
-<%@ page import="java.util.Date, " %>
+<%@ page import="java.util.Date" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -7,7 +7,7 @@
 <body>
     <h1>Логирование</h1>
     <h4>
-        <a href="/Logger">LogServlet</a>
+        <a href=<%=request.getContextPath()%>/logger>LogServlet</a>
         <br>
     </h4>
     <br>

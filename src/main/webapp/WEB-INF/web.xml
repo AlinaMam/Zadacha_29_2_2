@@ -3,7 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-
   <filter>
     <filter-name>TestFilter</filter-name>
     <filter-class>com.example.TestFilter</filter-class>
@@ -11,17 +10,7 @@
 
   <filter-mapping>
     <filter-name>TestFilter</filter-name>
-    <url-pattern>/Logger</url-pattern>
+    <url-pattern>/logger</url-pattern>
   </filter-mapping>
-
-  <servlet>
-    <servlet-name>LogServlet</servlet-name>
-    <servlet-class>com.example.LogServlet</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>LogServlet</servlet-name>
-    <url-pattern>/Logger</url-pattern>
-  </servlet-mapping>
 
 </web-app>
